@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/CSS" href="style.css">
+	<title>Fornite wins calculator</title>
+	<script type="text/javascript" src="frtnite.js">
+		
+	</script>
+</head>
+<body>
+<ul>
+  <li><a href="home.html">Home</a></li>
+  <li><a href="snake.html">SnakeGame</a></li>
+  <li><a href="changelog.html">News</a></li>
+  <li><a href="fortnitecalc.html" class="active">FortniteWinsCalc</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Social</a>
+    <div class="dropdown-content">
+      <a href="contact.html">Website creators</a>
+      <a href="helpers.html">helpers</a>
+      <a href="mentor.html">mentors</a>
+    </div>
+  </li>
+</ul>
+
+<h2>Fortnite win calculator</h2>
+<p>Type you First & Last Name into the form then fill out the required infomation needed.*</p>
+
+  <form name="myForm">
+    <label for="fname">First Name</label>
+      <input type="Text" id="fname" name="firstname" placeholder="Your name.."><br>
+    <label for="lname">Last Name</label>
+      <input type="Text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <label for="frtwins"># of wins</label>
+      <input type="Number"id="wins" name="frtwins" placeholder="Write something.." value = 0><br>
+    <label for="frtgames"># of games played</label>
+      <input type="Number"id="games" name="frtgames" placeholder="Write something.." value = 0><br>
+      <input type="button" name="btsubmit" value="Submit" onclick="calculate();">
+    	<input type="number" name="averagewins" placeholder="answer" value = 0>
+  </form>
+
+
+</body>
+</html>
+
+
